@@ -1,0 +1,16 @@
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\bin\Debug\PHOENIX.Fakturering.exe.config
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\bin\Debug\PHOENIX.Fakturering.exe
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\bin\Debug\PHOENIX.Fakturering.pdb
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\obj\Debug\PHOENIX.Fakturering.csprojAssemblyReference.cache
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\obj\Debug\PHOENIX.Fakturering.Properties.Resources.resources
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\obj\Debug\PHOENIX.Fakturering.csproj.GenerateResource.cache
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\obj\Debug\PHOENIX.Fakturering.csproj.CoreCompileInputs.cache
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\obj\Debug\PHOENIX.Fakturering.exe
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\obj\Debug\PHOENIX.Fakturering.pdb
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\obj\Debug\PHOENIX.Fakturering.SplashScreenForm.resources
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\obj\Debug\PHOENIX.Fakturering.InterfaceForm.resources
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\bin\Debug\pxlib.dll
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\bin\Debug\pxlib.pdb
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\obj\Debug\PHOENIX.Fakturering.csproj.CopyComplete
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\obj\Debug\PHOENIX.Fakturering.WordsCountingForm.resources
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\obj\Debug\PHOENIX.Fakturering.AboutForm.resources

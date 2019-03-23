@@ -1,0 +1,10 @@
+C:\Users\simon\source\repos\PHOENIX.Fakturering\pxlib\bin\Release\netstandard2.0\pxlib.deps.json
+C:\Users\simon\source\repos\PHOENIX.Fakturering\pxlib\bin\Release\netstandard2.0\pxlib.dll
+C:\Users\simon\source\repos\PHOENIX.Fakturering\pxlib\bin\Release\netstandard2.0\pxlib.pdb
+C:\Users\simon\source\repos\PHOENIX.Fakturering\pxlib\obj\Release\netstandard2.0\pxlib.Properties.Resources.resources
+C:\Users\simon\source\repos\PHOENIX.Fakturering\pxlib\obj\Release\netstandard2.0\pxlib.csproj.GenerateResource.cache
+C:\Users\simon\source\repos\PHOENIX.Fakturering\pxlib\obj\Release\netstandard2.0\pxlib.csproj.CoreCompileInputs.cache
+C:\Users\simon\source\repos\PHOENIX.Fakturering\pxlib\obj\Release\netstandard2.0\pxlib.AssemblyInfoInputs.cache
+C:\Users\simon\source\repos\PHOENIX.Fakturering\pxlib\obj\Release\netstandard2.0\pxlib.AssemblyInfo.cs
+C:\Users\simon\source\repos\PHOENIX.Fakturering\pxlib\obj\Release\netstandard2.0\pxlib.dll
+C:\Users\simon\source\repos\PHOENIX.Fakturering\pxlib\obj\Release\netstandard2.0\pxlib.pdb

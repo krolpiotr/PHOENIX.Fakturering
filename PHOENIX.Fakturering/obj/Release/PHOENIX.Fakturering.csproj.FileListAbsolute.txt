@@ -1,0 +1,14 @@
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\bin\Release\PHOENIX.Fakturering.exe.config
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\bin\Release\PHOENIX.Fakturering.exe
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\bin\Release\PHOENIX.Fakturering.pdb
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\bin\Release\pxlib.dll
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\bin\Release\pxlib.pdb
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\obj\Release\PHOENIX.Fakturering.csprojAssemblyReference.cache
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\obj\Release\PHOENIX.Fakturering.InterfaceForm.resources
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\obj\Release\PHOENIX.Fakturering.Properties.Resources.resources
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\obj\Release\PHOENIX.Fakturering.SplashScreenForm.resources
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\obj\Release\PHOENIX.Fakturering.csproj.GenerateResource.cache
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\obj\Release\PHOENIX.Fakturering.csproj.CoreCompileInputs.cache
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\obj\Release\PHOENIX.Fakturering.csproj.CopyComplete
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\obj\Release\PHOENIX.Fakturering.exe
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\obj\Release\PHOENIX.Fakturering.pdb
