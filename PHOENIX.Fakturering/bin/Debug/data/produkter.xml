@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<produkter>
+  <produkt>
+    <pnamn>
+    </pnamn>
+    <pris>
+    </pris>
+  </produkt>
+  <produkt>
+    <pnamn>AL LAMELL 50 mm 6 m²</pnamn>
+    <pris>87</pris>
+  </produkt>
+  <produkt>
+    <pnamn>AL LAMELL 30 mm 9,6 m²</pnamn>
+    <pris>59</pris>
+  </produkt>
+  <produkt>
+    <pnamn>AL TAPE ARMERAD 75 mm 45,7 m</pnamn>
+    <pris>267</pris>
+  </produkt>
+  <produkt>
+    <pnamn>ALU TAPE GF 50 MMX 25 m</pnamn>
+    <pris>135</pris>
+  </produkt>
+  <produkt>
+    <pnamn>ALU TAPE GF 70 MMX 25 m</pnamn>
+    <pris>159</pris>
+  </produkt>
+  <produkt>
+    <pnamn>AGM STIFT 29 mm 500 st</pnamn>
+    <pris>1772</pris>
+  </produkt>
+  <produkt>
+    <pnamn>KLAMMER P7, 2500 st</pnamn>
+    <pris>225</pris>
+  </produkt>
+  <produkt>
+    <pnamn>FIRE ALUCOAT 50 2,4 m²</pnamn>
+    <pris>59</pris>
+  </produkt>
+  <produkt>
+    <pnamn>AGM STIFT 33 mm 1000 st</pnamn>
+    <pris>1772</pris>
+  </produkt>
+  <produkt>
+    <pnamn>FIRE COMFORT 100 1,5 m²</pnamn>
+    <pris>228</pris>
+  </produkt>
+  <produkt>
+    <pnamn>GALVTRÅD 0,55</pnamn>
+    <pris>95</pris>
+  </produkt>
+</produkter>

@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.28714.193
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PHOENIX.Fakturering", "PHOENIX.Fakturering\PHOENIX.Fakturering.csproj", "{6577BCB2-FB64-4A2F-AE84-94D5A758F2EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pxlib", "pxlib\pxlib.csproj", "{4AEA9AA7-6FBC-48F7-ADC6-9FAA9F623255}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pxlib", "pxlib\pxlib.csproj", "{4AEA9AA7-6FBC-48F7-ADC6-9FAA9F623255}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

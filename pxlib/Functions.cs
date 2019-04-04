@@ -10,10 +10,5 @@ namespace pxlib
             MatchCollection collection = Regex.Matches(s, @"[\S]+");
             return collection.Count;
         }
-
-        public string GetFrameWorkVersion()
-        {
-            return System.Runtime.InteropServices.RuntimeEnvironment.GetSystemVersion();
-        }
     }
 }

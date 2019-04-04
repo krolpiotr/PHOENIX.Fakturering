@@ -14,3 +14,5 @@ C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\bin\Debug\px
 C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\obj\Debug\PHOENIX.Fakturering.csproj.CopyComplete
 C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\obj\Debug\PHOENIX.Fakturering.WordsCountingForm.resources
 C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\obj\Debug\PHOENIX.Fakturering.AboutForm.resources
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\obj\Debug\PHOENIX.Fakturering.CompanyForm.resources
+C:\Users\simon\source\repos\PHOENIX.Fakturering\PHOENIX.Fakturering\obj\Debug\PHOENIX.Fakturering.CustomerForm.resources

@@ -31,7 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InterfaceForm));
             this.menuStripInterface = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.closeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.countWordsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.customersBox = new System.Windows.Forms.ListBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.rbFAconto = new System.Windows.Forms.RadioButton();
@@ -43,9 +46,6 @@
             this.rd6 = new System.Windows.Forms.RadioButton();
             this.rd12 = new System.Windows.Forms.RadioButton();
             this.rd25 = new System.Windows.Forms.RadioButton();
-            this.closeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.countWordsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnDeleteCustomer = new System.Windows.Forms.Button();
             this.btnAddCustomer = new System.Windows.Forms.Button();
             this.btnEditCustomer = new System.Windows.Forms.Button();
@@ -74,7 +74,13 @@
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
             this.fileToolStripMenuItem.Text = "Arkiv";
-            this.fileToolStripMenuItem.Click += new System.EventHandler(this.ArkivToolStripMenuItem_Click);
+            // 
+            // closeToolStripMenuItem
+            // 
+            this.closeToolStripMenuItem.Name = "closeToolStripMenuItem";
+            this.closeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.closeToolStripMenuItem.Text = "Stäng programmet";
+            this.closeToolStripMenuItem.Click += new System.EventHandler(this.CloseToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 
@@ -85,13 +91,27 @@
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
             this.helpToolStripMenuItem.Text = "Hjälp";
             // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
+            this.aboutToolStripMenuItem.Text = "Om mig";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.AboutToolStripMenuItem_Click);
+            // 
+            // countWordsToolStripMenuItem
+            // 
+            this.countWordsToolStripMenuItem.Name = "countWordsToolStripMenuItem";
+            this.countWordsToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
+            this.countWordsToolStripMenuItem.Text = "Räkna ord";
+            this.countWordsToolStripMenuItem.Click += new System.EventHandler(this.CountWordsToolStripMenuItem_Click);
+            // 
             // customersBox
             // 
             this.customersBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
             this.customersBox.FormattingEnabled = true;
             this.customersBox.ItemHeight = 17;
             this.customersBox.Location = new System.Drawing.Point(11, 26);
-            this.customersBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.customersBox.Margin = new System.Windows.Forms.Padding(2);
             this.customersBox.Name = "customersBox";
             this.customersBox.Size = new System.Drawing.Size(178, 327);
             this.customersBox.TabIndex = 2;
@@ -101,9 +121,9 @@
             this.groupBox2.Controls.Add(this.rbFAconto);
             this.groupBox2.Controls.Add(this.rbFaktura);
             this.groupBox2.Location = new System.Drawing.Point(203, 76);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox2.Size = new System.Drawing.Size(225, 46);
             this.groupBox2.TabIndex = 20;
             this.groupBox2.TabStop = false;
@@ -114,7 +134,7 @@
             this.rbFAconto.AutoSize = true;
             this.rbFAconto.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.rbFAconto.Location = new System.Drawing.Point(94, 17);
-            this.rbFAconto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rbFAconto.Margin = new System.Windows.Forms.Padding(2);
             this.rbFAconto.Name = "rbFAconto";
             this.rbFAconto.Size = new System.Drawing.Size(101, 17);
             this.rbFAconto.TabIndex = 5;
@@ -127,7 +147,7 @@
             this.rbFaktura.AutoSize = true;
             this.rbFaktura.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.rbFaktura.Location = new System.Drawing.Point(4, 17);
-            this.rbFaktura.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rbFaktura.Margin = new System.Windows.Forms.Padding(2);
             this.rbFaktura.Name = "rbFaktura";
             this.rbFaktura.Size = new System.Drawing.Size(61, 17);
             this.rbFaktura.TabIndex = 4;
@@ -140,18 +160,19 @@
             this.btnProducts.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F);
             this.btnProducts.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.btnProducts.Location = new System.Drawing.Point(203, 182);
-            this.btnProducts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnProducts.Margin = new System.Windows.Forms.Padding(2);
             this.btnProducts.Name = "btnProducts";
             this.btnProducts.Size = new System.Drawing.Size(111, 49);
             this.btnProducts.TabIndex = 19;
             this.btnProducts.Text = "Produkter";
             this.btnProducts.UseVisualStyleBackColor = true;
+            this.btnProducts.Click += new System.EventHandler(this.BtnProducts_Click);
             // 
             // btnHistory
             // 
             this.btnHistory.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.btnHistory.Location = new System.Drawing.Point(203, 129);
-            this.btnHistory.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnHistory.Margin = new System.Windows.Forms.Padding(2);
             this.btnHistory.Name = "btnHistory";
             this.btnHistory.Size = new System.Drawing.Size(112, 49);
             this.btnHistory.TabIndex = 18;
@@ -165,9 +186,9 @@
             this.groupBox1.Controls.Add(this.rd12);
             this.groupBox1.Controls.Add(this.rd25);
             this.groupBox1.Location = new System.Drawing.Point(203, 26);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(225, 46);
             this.groupBox1.TabIndex = 13;
             this.groupBox1.TabStop = false;
@@ -178,7 +199,7 @@
             this.rd0.AutoSize = true;
             this.rd0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.rd0.Location = new System.Drawing.Point(182, 17);
-            this.rd0.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rd0.Margin = new System.Windows.Forms.Padding(2);
             this.rd0.Name = "rd0";
             this.rd0.Size = new System.Drawing.Size(39, 17);
             this.rd0.TabIndex = 3;
@@ -191,7 +212,7 @@
             this.rd6.AutoSize = true;
             this.rd6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.rd6.Location = new System.Drawing.Point(125, 17);
-            this.rd6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rd6.Margin = new System.Windows.Forms.Padding(2);
             this.rd6.Name = "rd6";
             this.rd6.Size = new System.Drawing.Size(39, 17);
             this.rd6.TabIndex = 2;
@@ -204,7 +225,7 @@
             this.rd12.AutoSize = true;
             this.rd12.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.rd12.Location = new System.Drawing.Point(63, 17);
-            this.rd12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rd12.Margin = new System.Windows.Forms.Padding(2);
             this.rd12.Name = "rd12";
             this.rd12.Size = new System.Drawing.Size(45, 17);
             this.rd12.TabIndex = 1;
@@ -217,33 +238,13 @@
             this.rd25.AutoSize = true;
             this.rd25.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.rd25.Location = new System.Drawing.Point(4, 17);
-            this.rd25.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rd25.Margin = new System.Windows.Forms.Padding(2);
             this.rd25.Name = "rd25";
             this.rd25.Size = new System.Drawing.Size(45, 17);
             this.rd25.TabIndex = 0;
             this.rd25.TabStop = true;
             this.rd25.Text = "25%";
             this.rd25.UseVisualStyleBackColor = true;
-            // 
-            // closeToolStripMenuItem
-            // 
-            this.closeToolStripMenuItem.Name = "closeToolStripMenuItem";
-            this.closeToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
-            this.closeToolStripMenuItem.Text = "Stäng programmet";
-            // 
-            // aboutToolStripMenuItem
-            // 
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.aboutToolStripMenuItem.Text = "Om mig";
-            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.AboutToolStripMenuItem_Click);
-            // 
-            // countWordsToolStripMenuItem
-            // 
-            this.countWordsToolStripMenuItem.Name = "countWordsToolStripMenuItem";
-            this.countWordsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.countWordsToolStripMenuItem.Text = "Räkna ord";
-            this.countWordsToolStripMenuItem.Click += new System.EventHandler(this.CountWordsToolStripMenuItem_Click);
             // 
             // btnDeleteCustomer
             // 
@@ -257,6 +258,7 @@
             this.btnDeleteCustomer.TabIndex = 17;
             this.btnDeleteCustomer.Text = "Ta bort en kund";
             this.btnDeleteCustomer.UseVisualStyleBackColor = true;
+            this.btnDeleteCustomer.Click += new System.EventHandler(this.BtnDeleteCustomer_Click);
             // 
             // btnAddCustomer
             // 
@@ -270,6 +272,7 @@
             this.btnAddCustomer.TabIndex = 16;
             this.btnAddCustomer.Text = "Lägg till en kund";
             this.btnAddCustomer.UseVisualStyleBackColor = true;
+            this.btnAddCustomer.Click += new System.EventHandler(this.BtnAddCustomer_Click);
             // 
             // btnEditCustomer
             // 
@@ -283,6 +286,7 @@
             this.btnEditCustomer.TabIndex = 15;
             this.btnEditCustomer.Text = "Redigera kunduppgifter";
             this.btnEditCustomer.UseVisualStyleBackColor = true;
+            this.btnEditCustomer.Click += new System.EventHandler(this.BtnEditCustomer_Click);
             // 
             // btnMyCompany
             // 
@@ -296,6 +300,7 @@
             this.btnMyCompany.TabIndex = 14;
             this.btnMyCompany.Text = "Mitt företag";
             this.btnMyCompany.UseVisualStyleBackColor = true;
+            this.btnMyCompany.Click += new System.EventHandler(this.BtnMyCompany_Click);
             // 
             // btnNewInvoice
             // 
@@ -332,6 +337,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PHOENIX Fakturering";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.InterfaceForm_FormClosing);
+            this.Load += new System.EventHandler(this.InterfaceForm_Load);
             this.menuStripInterface.ResumeLayout(false);
             this.menuStripInterface.PerformLayout();
             this.groupBox2.ResumeLayout(false);

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fakturor>
+  <faktura ID="687" Date="2013-02-08" Kund="001" Netto="7 465,00" Moms="0" Brutto="7 465,00" />
+  <faktura ID="8990" Date="2013-02-19" Kund="002" Netto="6 172,80" Moms="1 543,20" Brutto="7 716,00" />
+  <faktura ID="344344" Date="2013-03-03" Kund="001" Netto="254 556,00" Moms="0" Brutto="254 556,00" />
+  <faktura ID="344344" Date="2013-03-03" Kund="001" Netto="30 000,00" Moms="0" Brutto="30 000,00" />
+  <faktura ID="5464565" Date="2013-03-03" Kund="001" Netto="30 000,00" Moms="0" Brutto="30 000,00" />
+  <faktura ID="999" Date="2013-03-03" Kund="001" Netto="50 000,00" Moms="0" Brutto="50 000,00" />
+  <faktura ID="1000" Date="MyNewValue" Kund="001" Netto="30 000,00" Moms="0" Brutto="30 000,00" />
+  <faktura ID="1000" Date="MyNewValue" Kund="001" Netto="30 000,00" Moms="0" Brutto="30 000,00" />
+  <faktura ID="1000" Date="MyNewValue" Kund="001" Netto="30 000,00" Moms="0" Brutto="30 000,00" />
+  <faktura ID="1001" Date="2013-03-03" Kund="001" Netto="30 000,00" Moms="0" Brutto="30 000,00" />
+  <faktura ID="1001" Date="2013-03-03" Kund="001" Netto="30 000,00" Moms="0" Brutto="30 000,00" />
+  <faktura ID="1002" Date="2013-03-03" Kund="001" Netto="109 385,00" Moms="0" Brutto="109 385,00" />
+  <faktura ID="1003" Date="2013-03-03" Kund="001" Netto="70 000,00" Moms="0" Brutto="70 000,00" />
+  <faktura ID="234" Date="2013-03-03" Kund="001" Netto="50 000,00" Moms="0" Brutto="50 000,00" />
+  <faktura ID="134" Date="2013-03-03" Kund="001" Netto="40 000,00" Moms="0" Brutto="40 000,00" />
+  <faktura ID="134" Date="2013-03-03" Kund="001" Netto="40 000,00" Moms="0" Brutto="40 000,00" />
+  <faktura ID="4567" Date="2013-03-03" Kund="001" Netto="50 000,00" Moms="0" Brutto="50 000,00" />
+  <faktura ID="234" Date="2013-03-03" Kund="001" Netto="21 528,00" Moms="5 382,00" Brutto="26 910,00" />
+  <faktura ID="6556" Date="2013-03-17" Kund="001" Netto="70 000,00" Moms="0" Brutto="70 000,00" />
+  <faktura ID="45455" Date="2013-03-17" Kund="001" Netto="53 583,00" Moms="13 395,75" Brutto="66 978,75" />
+  <faktura ID="45455" Date="2013-03-17" Kund="001" Netto="53 583,00" Moms="13 395,75" Brutto="66 978,75" />
+  <faktura ID="45455" Date="2013-03-17" Kund="001" Netto="53 583,00" Moms="13 395,75" Brutto="66 978,75" />
+  <faktura ID="45455" Date="2013-03-17" Kund="001" Netto="53 583,00" Moms="13 395,75" Brutto="66 978,75" />
+  <faktura ID="455454" Date="2013-03-17" Kund="001" Netto="70 000,00" Moms="0" Brutto="70 000,00" />
+  <faktura ID="5454" Date="2013-03-17" Kund="001" Netto="70 000,00" Moms="0" Brutto="70 000,00" />
+  <faktura ID="5454" Date="2013-03-17" Kund="001" Netto="70 000,00" Moms="0" Brutto="70 000,00" />
+  <faktura ID="5454" Date="2013-03-17" Kund="001" Netto="70 000,00" Moms="0" Brutto="70 000,00" />
+  <faktura ID="4334" Date="2013-03-31" Kund="001" Netto="724,01" Moms="181,00" Brutto="905,01" />
+  <faktura ID="5434" Date="2013-05-23" Kund="001" Netto="70 000,00" Moms="0" Brutto="70 000,00" />
+  <faktura ID="5434" Date="2013-05-23" Kund="001" Netto="70 000,00" Moms="0" Brutto="70 000,00" />
+  <faktura ID="5434" Date="2013-05-23" Kund="001" Netto="70 000,00" Moms="0" Brutto="70 000,00" />
+  <faktura ID="5434" Date="2013-05-23" Kund="001" Netto="70 000,00" Moms="0" Brutto="70 000,00" />
+  <faktura ID="234" Date="2013-02-06" Kund="001" Netto="34 663,30" Moms="8 665,83" Brutto="43 329,13" />
+  <faktura ID="235" Date="2013-02-06" Kund="001" Netto="27 200,00" Moms="0" Brutto="27 200,00" />
+  <faktura ID="5667" Date="2013-05-25" Kund="001" Netto="1 772,00" Moms="443,00" Brutto="2 215,00" />
+  <faktura ID="5667" Date="2013-05-25" Kund="001" Netto="1 772,00" Moms="443,00" Brutto="2 215,00" />
+  <faktura ID="687" Date="2013-05-25" Kund="001" Netto="4 554,00" Moms="1 138,50" Brutto="5 692,50" />
+  <faktura ID="687" Date="2013-05-25" Kund="001" Netto="434 343,00" Moms="108 585,75" Brutto="542 928,75" />
+  <faktura ID="687" Date="2013-05-25" Kund="001" Netto="434 343,00" Moms="108 585,75" Brutto="542 928,75" />
+  <faktura ID="4685" Date="2013-05-25" Kund="001" Netto="276 432,00" Moms="69 108,00" Brutto="345 540,00" />
+  <faktura ID="46851" Date="2013-05-25" Kund="001" Netto="767 276,00" Moms="191 819,00" Brutto="959 095,00" />
+  <faktura ID="46852" Date="2013-05-25" Kund="001" Netto="326 135,00" Moms="81 533,75" Brutto="407 668,75" />
+  <faktura ID="46853" Date="2013-05-25" Kund="001" Netto="190 696,00" Moms="47 674,00" Brutto="238 370,00" />
+  <faktura ID="46854" Date="2013-05-25" Kund="001" Netto="55 454,00" Moms="13 863,50" Brutto="69 317,50" />
+  <faktura ID="46855" Date="2013-05-25" Kund="001" Netto="70 151,00" Moms="17 537,75" Brutto="87 688,75" />
+  <faktura ID="46856" Date="2013-05-25" Kund="001" Netto="54 177 024,00" Moms="13 544 256,00" Brutto="67 721 280,00" />
+  <faktura ID="49" Date="2013-05-25" Kund="001" Netto="99 232,00" Moms="24 808,00" Brutto="124 040,00" />
+  <faktura ID="50" Date="2013-05-26" Kund="001" Netto="21 264,00" Moms="5 316,00" Brutto="26 580,00" />
+  <faktura ID="51" Date="2013-05-28" Kund="001" Netto="40 000,00" Moms="4 800,00" Brutto="44 800,00" />
+  <faktura ID="52" Date="2019-03-21" Kund="001" Netto="21 240,00" Moms="5 310,00" Brutto="26 550,00" />
+  <faktura ID="53" Date="2019-03-21" Kund="001" Netto="7 088,00" Moms="1 772,00" Brutto="8 860,00" />
+</fakturor>

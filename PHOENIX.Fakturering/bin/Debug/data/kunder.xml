@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<customers>
+  <kund>
+    <namn>Demoföretag 1 VVS-BYGG</namn>
+    <er>Max Hansson</er>
+    <kundnr>001</kundnr>
+    <momsregnr>SE59010434343</momsregnr>
+    <fakturaadress1>Nygatan 89,</fakturaadress1>
+    <fakturaadress2>145 59 Johaneshov</fakturaadress2>
+    <fakturaadress3>
+    </fakturaadress3>
+    <fakturaemail>some1@sdd.se</fakturaemail>
+  </kund>
+  <kund>
+    <namn>Demoföretag 2 ABtt</namn>
+    <er>Anders Johansson</er>
+    <kundnr>002</kundnr>
+    <momsregnr>SE55345453534</momsregnr>
+    <fakturaadress1>Gamlagatan 67,</fakturaadress1>
+    <fakturaadress2>145 59 Stockholm</fakturaadress2>
+    <fakturaadress3>hh</fakturaadress3>
+    <fakturaemail>some223@sdd.se</fakturaemail>
+  </kund>
+</customers>

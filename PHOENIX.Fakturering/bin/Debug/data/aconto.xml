@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<produkter>
+  <produkt>
+    <pnamn></pnamn>
+    <pris></pris>
+  </produkt>
+  <produkt>
+    <pnamn>A-conto 1:</pnamn>
+    <pris>-70000</pris>
+  </produkt>
+  <produkt>
+    <pnamn>Anbudssumma</pnamn>
+    <pris></pris>
+  </produkt>
+  <produkt>
+    <pnamn>Kvar att fakturera</pnamn>
+    <pris></pris>
+  </produkt>
+  <produkt>
+    <pnamn>Faktura</pnamn>
+    <pris></pris>
+  </produkt>
+</produkter>

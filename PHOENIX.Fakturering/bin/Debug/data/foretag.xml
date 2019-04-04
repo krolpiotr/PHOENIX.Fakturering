@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<info>
+  <foretag>
+    <foretagnamn>Mitt Företag ABmmkkf</foretagnamn>
+    <fontsize>26</fontsize>
+    <varreferens>Johan Andersson</varreferens>
+    <fmomsregnr>6103546554</fmomsregnr>
+    <forgnr>61034-5656</forgnr>
+    <fepost>exempel@gmail.com</fepost>
+    <adress1>Mitt Företag AB</adress1>
+    <adress2>Högsätravägen 75,</adress2>
+    <adress3>181 58 Lidingö</adress3>
+    <telefon>0739677677</telefon>
+    <fbankgiro>6209-03</fbankgiro>
+    <fwebbsida>gfg</fwebbsida>
+    <betalningsvillkor>40</betalningsvillkor>
+    <drojsmalsranta>11,00%</drojsmalsranta>
+  </foretag>
+</info>

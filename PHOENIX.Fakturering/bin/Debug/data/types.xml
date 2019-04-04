@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<types>
+  <type>
+    <tnamn>
+    </tnamn>
+  </type>
+  <type>
+    <tnamn>Timme</tnamn>
+  </type>
+  <type>
+    <tnamn>Timmar</tnamn>
+  </type>
+  <type>
+    <tnamn>Styck</tnamn>
+  </type>
+  <type>
+    <tnamn>m²</tnamn>
+  </type>
+  <type>
+    <tnamn>Kartong</tnamn>
+  </type>
+  <type>
+    <tnamn>Enhet</tnamn>
+  </type>
+  <type>
+    <tnamn>Enheter</tnamn>
+  </type>
+  <type>
+    <tnamn>Kilo</tnamn>
+  </type>
+</types>
