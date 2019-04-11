@@ -1,0 +1,14 @@
+C:\Users\simon\source\repos\PHOENIX.Fakturering\itextsharp-core\bin\Debug\itextsharp.dll
+C:\Users\simon\source\repos\PHOENIX.Fakturering\itextsharp-core\bin\Debug\itextsharp.pdb
+C:\Users\simon\source\repos\PHOENIX.Fakturering\itextsharp-core\bin\Debug\iTextSharp.xml
+C:\Users\simon\source\repos\PHOENIX.Fakturering\itextsharp-core\obj\Debug\itextsharp.csprojAssemblyReference.cache
+C:\Users\simon\source\repos\PHOENIX.Fakturering\itextsharp-core\obj\Debug\itextsharp.csproj.CoreCompileInputs.cache
+C:\Users\simon\source\repos\PHOENIX.Fakturering\itextsharp-core\obj\Debug\itextsharp.dll
+C:\Users\simon\source\repos\PHOENIX.Fakturering\itextsharp-core\obj\Debug\itextsharp.pdb
+C:\Users\simon\Desktop\PHOENIX.Fakturering\itextsharp-core\bin\Debug\itextsharp.dll
+C:\Users\simon\Desktop\PHOENIX.Fakturering\itextsharp-core\bin\Debug\itextsharp.pdb
+C:\Users\simon\Desktop\PHOENIX.Fakturering\itextsharp-core\bin\Debug\iTextSharp.xml
+C:\Users\simon\Desktop\PHOENIX.Fakturering\itextsharp-core\obj\Debug\itextsharp.csprojAssemblyReference.cache
+C:\Users\simon\Desktop\PHOENIX.Fakturering\itextsharp-core\obj\Debug\itextsharp.csproj.CoreCompileInputs.cache
+C:\Users\simon\Desktop\PHOENIX.Fakturering\itextsharp-core\obj\Debug\itextsharp.dll
+C:\Users\simon\Desktop\PHOENIX.Fakturering\itextsharp-core\obj\Debug\itextsharp.pdb

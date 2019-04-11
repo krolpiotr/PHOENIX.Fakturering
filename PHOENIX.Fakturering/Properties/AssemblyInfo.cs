@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("PHOENIX.Fakturering")]
-[assembly: AssemblyCopyright("Copyright ©  2013-2019")]
+[assembly: AssemblyCopyright("Copyright ©  2013-2019 Piotr Krol")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

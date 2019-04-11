@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\simon\\source\\repos\\PHOENIX.Fakturering\\pxlib\\pxlib.csproj": {}
+    "C:\\Users\\simon\\Desktop\\PHOENIX.Fakturering\\pxlib\\pxlib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\simon\\source\\repos\\PHOENIX.Fakturering\\pxlib\\pxlib.csproj": {
+    "C:\\Users\\simon\\Desktop\\PHOENIX.Fakturering\\pxlib\\pxlib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\simon\\source\\repos\\PHOENIX.Fakturering\\pxlib\\pxlib.csproj",
+        "projectUniqueName": "C:\\Users\\simon\\Desktop\\PHOENIX.Fakturering\\pxlib\\pxlib.csproj",
         "projectName": "pxlib",
-        "projectPath": "C:\\Users\\simon\\source\\repos\\PHOENIX.Fakturering\\pxlib\\pxlib.csproj",
+        "projectPath": "C:\\Users\\simon\\Desktop\\PHOENIX.Fakturering\\pxlib\\pxlib.csproj",
         "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\simon\\source\\repos\\PHOENIX.Fakturering\\pxlib\\obj\\",
+        "outputPath": "C:\\Users\\simon\\Desktop\\PHOENIX.Fakturering\\pxlib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -39,6 +39,9 @@ namespace PHOENIX.Fakturering
         public string dataDir;
         public string produkterDir;
 
+        public double tax;
+        public string kindOfFaktura;
+
         private void InterfaceForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             DialogResult dialog = MessageBox.Show("Vill du verkligen stänga programmet?", "Stäng programmet", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
@@ -47,11 +50,6 @@ namespace PHOENIX.Fakturering
                 System.Environment.Exit(1);
             }
         }
-
-       // private void ArkivToolStripMenuItem_Click(object sender, EventArgs e)
-      // {
-
-      //  }
 
         private void CountWordsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -267,6 +265,44 @@ namespace PHOENIX.Fakturering
         {
             ProductsForm frForm = new ProductsForm();
             frForm.ShowDialog();
+        }
+
+        private void BtnHistory_Click(object sender, EventArgs e)
+        {
+            HistoryForm hForm = new HistoryForm();
+            hForm.ShowDialog();
+        }
+
+        private void BtnNewInvoice_Click(object sender, EventArgs e)
+        {
+            if (rd0.Checked == true)
+            {
+                this.tax = 0;
+            }
+            else if (rd6.Checked == true)
+            {
+                this.tax = 0.06;
+            }
+            else if (rd12.Checked == true)
+            {
+                this.tax = 0.12;
+            }
+            else if (rd25.Checked == true)
+            {
+                this.tax = 0.25;
+            }
+
+            if (rbFaktura.Checked == true)
+            {
+                this.kindOfFaktura = "FAKTURA";
+            }
+            else if (rbFAconto.Checked == true)
+            {
+                this.kindOfFaktura = "ACONTO";
+            }
+
+            NewInvoiceForm sForm = new NewInvoiceForm(customersBox.SelectedValue.ToString(), this.tax, this.kindOfFaktura);
+            sForm.ShowDialog();
         }
     }
 }

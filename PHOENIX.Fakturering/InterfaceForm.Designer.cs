@@ -78,7 +78,7 @@
             // closeToolStripMenuItem
             // 
             this.closeToolStripMenuItem.Name = "closeToolStripMenuItem";
-            this.closeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.closeToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.closeToolStripMenuItem.Text = "Stäng programmet";
             this.closeToolStripMenuItem.Click += new System.EventHandler(this.CloseToolStripMenuItem_Click);
             // 
@@ -178,6 +178,7 @@
             this.btnHistory.TabIndex = 18;
             this.btnHistory.Text = "Tidigare fakturor";
             this.btnHistory.UseVisualStyleBackColor = true;
+            this.btnHistory.Click += new System.EventHandler(this.BtnHistory_Click);
             // 
             // groupBox1
             // 
@@ -314,6 +315,7 @@
             this.btnNewInvoice.TabIndex = 12;
             this.btnNewInvoice.Text = "Ny faktura";
             this.btnNewInvoice.UseVisualStyleBackColor = true;
+            this.btnNewInvoice.Click += new System.EventHandler(this.BtnNewInvoice_Click);
             // 
             // InterfaceForm
             // 

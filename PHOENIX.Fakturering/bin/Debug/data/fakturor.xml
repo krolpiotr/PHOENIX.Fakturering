@@ -51,4 +51,7 @@
   <faktura ID="51" Date="2013-05-28" Kund="001" Netto="40 000,00" Moms="4 800,00" Brutto="44 800,00" />
   <faktura ID="52" Date="2019-03-21" Kund="001" Netto="21 240,00" Moms="5 310,00" Brutto="26 550,00" />
   <faktura ID="53" Date="2019-03-21" Kund="001" Netto="7 088,00" Moms="1 772,00" Brutto="8 860,00" />
+  <faktura ID="3443" Date="2013-01-12" Kund="004" Netto="343443" Moms="343443" Brutto="343443" />
+  <faktura ID="3443" Date="2013-01-12" Kund="004" Netto="343443" Moms="343443" Brutto="343443" />
+  <faktura ID="3443" Date="2013-01-12" Kund="004" Netto="343443" Moms="343443" Brutto="343443" />
 </fakturor>

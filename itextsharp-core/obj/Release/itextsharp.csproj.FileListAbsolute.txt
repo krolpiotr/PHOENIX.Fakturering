@@ -1,0 +1,5 @@
+C:\Users\simon\Desktop\PHOENIX.Fakturering\itextsharp-core\bin\Release\itextsharp.dll
+C:\Users\simon\Desktop\PHOENIX.Fakturering\itextsharp-core\bin\Release\iTextSharp.xml
+C:\Users\simon\Desktop\PHOENIX.Fakturering\itextsharp-core\obj\Release\itextsharp.csprojAssemblyReference.cache
+C:\Users\simon\Desktop\PHOENIX.Fakturering\itextsharp-core\obj\Release\itextsharp.csproj.CoreCompileInputs.cache
+C:\Users\simon\Desktop\PHOENIX.Fakturering\itextsharp-core\obj\Release\itextsharp.dll
