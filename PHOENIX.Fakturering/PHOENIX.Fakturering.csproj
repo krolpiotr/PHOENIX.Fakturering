@@ -175,6 +175,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\table.png" />
+    <None Include="Resources\logo.png" />
     <Content Include="shapes.ico" />
     <None Include="Resources\splash_fakturering.png" />
   </ItemGroup>

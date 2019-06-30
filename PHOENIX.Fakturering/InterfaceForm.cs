@@ -188,6 +188,8 @@ namespace PHOENIX.Fakturering
 
         private void InterfaceForm_Load(object sender, EventArgs e)
         {
+            this.firstRun();
+
             this.dataDir = this.dataLocation();
             this.fakturorDir = this.fakturorLocation();
             this.produkterDir = this.produkterLocation();
@@ -304,5 +306,240 @@ namespace PHOENIX.Fakturering
             NewInvoiceForm sForm = new NewInvoiceForm(customersBox.SelectedValue.ToString(), this.tax, this.kindOfFaktura);
             sForm.ShowDialog();
         }
+
+        public void firstRun()
+        {
+            this.fakturorDir = fakturorLocation();
+            this.dataDir = dataLocation();
+            this.produkterDir = produkterLocation();
+            this.companyFile();
+            this.customersFile();
+            this.invoicesFile();
+            this.productsFile();
+            this.typesFile();
+            this.acontoFile();
+            this.tableImage();
+            this.logoImage();
+            return;
+        }
+
+        public void tableImage()
+        {
+            if (!File.Exists(this.dataDir + "table.png"))
+            {
+                var bmp = new Bitmap(PHOENIX.Fakturering.Properties.Resources.table);
+                bmp.Save(dataDir + "table.png", System.Drawing.Imaging.ImageFormat.Png);
+            }
+        }
+
+        public void logoImage()
+        {
+            if (!File.Exists(this.dataDir + "logo.png"))
+            {
+                var bmp = new Bitmap(PHOENIX.Fakturering.Properties.Resources.logo);
+                bmp.Save(dataDir + "logo.png", System.Drawing.Imaging.ImageFormat.Png);
+            }
+        }
+
+        public void companyFile()
+        {
+            if (!File.Exists(this.dataDir + "foretag.xml"))
+            {
+                System.Xml.XmlDocument newDoc = new System.Xml.XmlDocument();
+
+                string sTextX = "<info>";
+                sTextX += "<foretag>";
+                sTextX += "<foretagnamn>Exempel Foretag2</foretagnamn>";
+                sTextX += "<fontsize>26</fontsize>";
+                sTextX += "<varreferens>Johan Andersson</varreferens>";
+                sTextX += "<fmomsregnr>6103546554</fmomsregnr>";
+                sTextX += "<forgnr>61034-5656</forgnr>";
+                sTextX += "<fepost>exempel@gmail.com</fepost>";
+                sTextX += "<adress1>Exempel Foretag2</adress1>";
+                sTextX += "<adress2>Högsätravägen 75,</adress2>";
+                sTextX += "<adress3>181 58 Lidingö</adress3>";
+                sTextX += "<telefon>0739677677</telefon>";
+                sTextX += "<fbankgiro>6209-03</fbankgiro>";
+                sTextX += "<fwebbsida></fwebbsida>";
+                sTextX += "<betalningsvillkor>30</betalningsvillkor>";
+                sTextX += "<drojsmalsranta>11,00%</drojsmalsranta>";
+                sTextX += "</foretag>";
+                sTextX += "</info>";
+                newDoc.LoadXml(sTextX);
+                newDoc.PrependChild(newDoc.CreateXmlDeclaration("1.0", "utf-8", ""));
+                newDoc.Save(this.dataDir + @"foretag.xml");
+            }
+        }
+
+        public void customersFile()
+        {
+            if (!File.Exists(this.dataDir + "kunder.xml"))
+            {
+                System.Xml.XmlDocument newDoc = new System.Xml.XmlDocument();
+
+                string sTextX = "<customers>";
+                sTextX += "<kund>";
+                sTextX += "<namn>Kund Foretag 1</namn>";
+                sTextX += "<er>Max Hansson</er>";
+                sTextX += "<kundnr>001</kundnr>";
+                sTextX += "<momsregnr>SE59010434343</momsregnr>";
+                sTextX += "<fakturaadress1>Nygatan 89,</fakturaadress1>";
+                sTextX += "<fakturaadress2>145 59 Johaneshov</fakturaadress2>";
+                sTextX += "<fakturaadress3></fakturaadress3>";
+                sTextX += "<fakturaemail>some1@sdd.se</fakturaemail>";
+                sTextX += "</kund>";
+                sTextX += "<kund>";
+                sTextX += "<namn>Mikud AB</namn>";
+                sTextX += "<er>Anders Johansson</er>";
+                sTextX += "<kundnr>002</kundnr>";
+                sTextX += "<momsregnr>SE55345453534</momsregnr>";
+                sTextX += "<fakturaadress1>Gamlagatan 67,</fakturaadress1>";
+                sTextX += "<fakturaadress2>145 59 Stockholm</fakturaadress2>";
+                sTextX += "<fakturaadress3></fakturaadress3>";
+                sTextX += "<fakturaemail>some223@sdd.se</fakturaemail>";
+                sTextX += "</kund>";
+                sTextX += "</customers>";
+
+                newDoc.LoadXml(sTextX);
+                newDoc.PrependChild(newDoc.CreateXmlDeclaration("1.0", "utf-8", ""));
+                newDoc.Save(this.dataDir + @"kunder.xml");
+            }
+        }
+
+        public void invoicesFile()
+        {
+            if (!File.Exists(this.dataDir + "fakturor.xml"))
+            {
+                System.Xml.XmlDocument newDoc = new System.Xml.XmlDocument();
+
+                string sTextX = "<fakturor>";
+                sTextX += "</fakturor>";
+
+                newDoc.LoadXml(sTextX);
+                newDoc.PrependChild(newDoc.CreateXmlDeclaration("1.0", "utf-8", ""));
+                newDoc.Save(this.dataDir + @"fakturor.xml");
+            }
+        }
+
+        public void productsFile()
+        {
+            if (!File.Exists(this.dataDir + "produkter.xml"))
+            {
+                System.Xml.XmlDocument newDoc = new System.Xml.XmlDocument();
+
+                string sTextX = "<produkter>";
+                sTextX += "<produkt>";
+                sTextX += "<pnamn></pnamn>";
+                sTextX += "<pris></pris>";
+                sTextX += "</produkt>";
+                sTextX += "<produkt>";
+                sTextX += "<pnamn>AL LAMELL 50 mm 6 m²</pnamn>";
+                sTextX += "<pris>87</pris>";
+                sTextX += "</produkt>";
+                sTextX += "<produkt>";
+                sTextX += "<pnamn>AL LAMELL 30 mm 9,6 m²</pnamn>";
+                sTextX += "<pris>59</pris>";
+                sTextX += "</produkt>";
+                sTextX += "<produkt>";
+                sTextX += "<pnamn>AL TAPE ARMERAD 75 mm 45,7 m</pnamn>";
+                sTextX += "<pris>267</pris>";
+                sTextX += "</produkt>";
+                sTextX += "<produkt>";
+                sTextX += "<pnamn>ALU TAPE GF 50 MMX 25 m</pnamn>";
+                sTextX += "<pris>135</pris>";
+                sTextX += "</produkt>";
+                sTextX += "<produkt>";
+                sTextX += "<pnamn>ALU TAPE GF 70 MMX 25 m</pnamn>";
+                sTextX += "<pris>159</pris>";
+                sTextX += "</produkt>";
+                sTextX += "<produkt>";
+                sTextX += "<pnamn>AGM STIFT 29 mm 500 st</pnamn>";
+                sTextX += "<pris>1772</pris>";
+                sTextX += "</produkt>";
+                sTextX += "</produkter>";
+
+                newDoc.LoadXml(sTextX);
+                newDoc.PrependChild(newDoc.CreateXmlDeclaration("1.0", "utf-8", ""));
+                newDoc.Save(this.dataDir + @"produkter.xml");
+            }
+        }
+
+        public void typesFile()
+        {
+            if (!File.Exists(this.dataDir + "types.xml"))
+            {
+                System.Xml.XmlDocument newDoc = new System.Xml.XmlDocument();
+
+                string sTextX = "<types>";
+                sTextX += "<type>";
+                sTextX += "<tnamn></tnamn>";
+                sTextX += "</type>";
+                sTextX += "<type>";
+                sTextX += "<tnamn>Timme</tnamn>";
+                sTextX += "</type>";
+                sTextX += "<type>";
+                sTextX += "<tnamn>Timmar</tnamn>";
+                sTextX += "</type>";
+                sTextX += "<type>";
+                sTextX += "<tnamn>Styck</tnamn>";
+                sTextX += "</type>";
+                sTextX += "<type>";
+                sTextX += "<tnamn>m²</tnamn>";
+                sTextX += "</type>";
+                sTextX += "<type>";
+                sTextX += "<tnamn>Kartong</tnamn>";
+                sTextX += "</type>";
+                sTextX += "<type>";
+                sTextX += "<tnamn>Enhet</tnamn>";
+                sTextX += "</type>";
+                sTextX += "<type>";
+                sTextX += "<tnamn>Enheter</tnamn>";
+                sTextX += "</type>";
+                sTextX += "<type>";
+                sTextX += "<tnamn>Kilo</tnamn>";
+                sTextX += "</type>";
+                sTextX += "</types>";
+
+                newDoc.LoadXml(sTextX);
+                newDoc.PrependChild(newDoc.CreateXmlDeclaration("1.0", "utf-8", ""));
+                newDoc.Save(this.dataDir + @"types.xml");
+            }
+        }
+
+        public void acontoFile()
+        {
+            if (File.Exists(this.dataDir + "aconto.xml"))
+            {
+                System.Xml.XmlDocument newDoc = new System.Xml.XmlDocument();
+
+                string sTextX = "<produkter>";
+                sTextX += "<produkt>";
+                sTextX += "<pnamn></pnamn>";
+                sTextX += "<pris></pris>";
+                sTextX += "</produkt>";
+                sTextX += "<produkt>";
+                sTextX += "<pnamn>A-conto 1:</pnamn>";
+                sTextX += "<pris></pris>";
+                sTextX += "</produkt>";
+                sTextX += "<produkt>";
+                sTextX += "<pnamn>Anbudssumma</pnamn>";
+                sTextX += "<pris></pris>";
+                sTextX += "</produkt>";
+                sTextX += "<produkt>";
+                sTextX += "<pnamn>Kvar att fakturera</pnamn>";
+                sTextX += "<pris></pris>";
+                sTextX += "</produkt>";
+                sTextX += "<produkt>";
+                sTextX += "<pnamn>Faktura</pnamn>";
+                sTextX += "<pris></pris>";
+                sTextX += "</produkt>";
+                sTextX += "</produkter>";
+
+                newDoc.LoadXml(sTextX);
+                newDoc.PrependChild(newDoc.CreateXmlDeclaration("1.0", "utf-8", ""));
+                newDoc.Save(this.dataDir + @"aconto.xml");
+            }
+        }
+
     }
 }

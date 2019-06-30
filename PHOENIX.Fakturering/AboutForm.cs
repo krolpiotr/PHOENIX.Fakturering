@@ -37,7 +37,7 @@ namespace PHOENIX.Fakturering
             richTextBox1.SelectionColor = Color.Red;
             richTextBox1.SelectedText = Environment.NewLine + richTextBox1.Text;
 
-            richTextBox1.Text += "\nFör företag kostar programmet 1500 kr per år inklusive moms. Ditt företag måste ha en faktura på inköpa programmet för att kunna använda det lagligt.";
+            richTextBox1.Text += "\nFör företag kostar programmet 1500 kr per år inklusive moms. Ditt företag måste ha en faktura på inköpa programmet för att kunna använda det lagligt."; //"\nDla firm kosztuje on 2500 kr brutto na rok. Trzeba posiadac fakture aby firma mogla korzystac z niego legalnie.";
             richTextBox1.SelectionFont = font2;
             richTextBox1.SelectedText += "Programmet är gratis för privatpersoner.";
             richTextBox1.SelectionFont = font;
