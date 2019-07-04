@@ -188,11 +188,11 @@ namespace PHOENIX.Fakturering
 
         private void InterfaceForm_Load(object sender, EventArgs e)
         {
-            this.firstRun();
-
             this.dataDir = this.dataLocation();
             this.fakturorDir = this.fakturorLocation();
             this.produkterDir = this.produkterLocation();
+
+            this.firstRun();
 
             rd25.Checked = true;
             rbFaktura.Checked = true;
@@ -309,9 +309,6 @@ namespace PHOENIX.Fakturering
 
         public void firstRun()
         {
-            this.fakturorDir = fakturorLocation();
-            this.dataDir = dataLocation();
-            this.produkterDir = produkterLocation();
             this.companyFile();
             this.customersFile();
             this.invoicesFile();

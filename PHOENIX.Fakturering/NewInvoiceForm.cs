@@ -340,6 +340,19 @@ namespace PHOENIX.Fakturering
             label9.Text = "Kundnr: " + this.customerID;
         }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
         private void BtnGenerate_Click(object sender, EventArgs e)
         {
              //InterfaceForm fc = new InterfaceForm();
@@ -1170,6 +1183,45 @@ namespace PHOENIX.Fakturering
             catch
             { }
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // DZIALA
+
 
         public void saveToFakturor(string ID, string Date, string Kund, string Netto, string Moms, string Brutto)
         {
